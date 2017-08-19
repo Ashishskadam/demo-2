@@ -8,8 +8,7 @@ namespace net.authorize.sample
 {
     public class CreateCustomerPaymentProfile
     {
-        
-        
+         
         public static ANetApiResponse Run(String ApiLoginID, String ApiTransactionKey, string customerProfileId)
         {
             Console.WriteLine("CreateCustomerPaymentProfile Sample");
